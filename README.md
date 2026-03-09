@@ -33,19 +33,16 @@ Le pipeline exploite le modèle RoMa pour obtenir une estimation initiale des co
 
 10. **Visualisation** : Le notebook propose des visualisations pour évaluer la qualité de l'alignement (avant/après, fusion HSV, heatmap d'erreur MIND).
 
+
+## Dépendances
+Assurez-vous d'installer toutes les dépendances listées dans `requirements.txt` avant d'exécuter les scripts ou notebooks.
+
 ## Utilisation
 
 - Modifiez les chemins et paramètres dans la classe `Config` selon vos données.
 - Assurez-vous que le modèle RoMa est installé et accessible.
 - Exécutez le notebook étape par étape pour générer et sauvegarder l'homographie.
 - Utilisez la visualisation pour vérifier la qualité de l'alignement.
-
-## Structure du projet
-
-- `calib_v2_bags.ipynb` : Notebook principal documenté.
-- `README.md` : Documentation générale.
-- Dossiers de données : RGB, SWIR, etc.
-- Dossiers de sortie : Homographies généralisées.
 
 ## Contact
 
